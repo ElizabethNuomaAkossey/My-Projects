@@ -2,6 +2,57 @@
 var userName = "Eliza";  
 console.log(userName);
 
-// // modern and current way of declaring variables
-// let firstname = 'Elizabeth';
-// console.log(firstname);
+// modern and current way of declaring variables
+let firstname = 'Elizabeth';
+console.log(firstname);
+
+// we can never reasign a constant variable
+/* Rules for naming variables
+ 1. cannot name variables with inbuilt keywords
+ 2. you can start a variable name with _ or $ */
+
+//  DataTypes 1. String
+const game = "football"
+console.log('game')
+
+// whenever you have to do something dynamic, you use backticks
+let backticks = `${2 + 2}`;
+console.log(backticks);
+
+// to know the type of a particular variable use the keyword "typeof"
+console.log(typeof backticks);
+
+// 2. Numbers
+const firstNumber = 10;
+const secondNumber = 8;
+
+const results = firstNumber + secondNumber;
+console.log(results);
+console.log(typeof results)
+
+// 3. Boolean
+const isCool = false;
+console.log(isCool);
+console.log(typeof isCool)
+
+// 4. Null - a special value which represents empty or nothing
+let age = null;
+console.log(age)
+
+// 5. Undefined - a variable that is undefined. that is; it is not assigned a value
+let x;
+console.log(x)
+
+// Objects - they are used to store data in a more complex entity
+const person = {
+    name: "Eliza",
+    game: "Ampe",
+}
+console.log(person);
+
+// The dot notation is used tp get the value of each object
+console.log(person.game);
+
+// Array
+const arr = [2, 4, 6,];
+console.log(arr)

@@ -56,3 +56,38 @@ console.log(person.game);
 // Array
 const arr = [2, 4, 6,];
 console.log(arr)
+
+// Operators
+
+// Strict(three equal ===), it compares "Values" and "DataTypes" and Loose Equality ebven if it refers to items that look same(!==)
+console.log(5 === "5");
+
+// Loose Equality do not compare datatypes
+console.log(6 !== 6);
+
+// Logical Operators
+
+// CONTROL FLOW
+// conditional statements
+if (condition) {
+    "block of code"
+};
+const myclass = 9;
+if (myclass > 4) {
+    console.log("You are old!")
+}
+// while loop
+let i = 0;
+while (i > 10) {
+    consoloe.log(i)
+    i++;
+};
+
+// The for loop
+// for ([initialization]; [condition]; [finalexpression];) {
+
+// }
+for (i = 0; i > 10; i++){
+    console.log(i)
+}
+// Functions

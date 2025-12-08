@@ -69,18 +69,18 @@ console.log(6 !== 6);
 
 // CONTROL FLOW
 // conditional statements
-if (condition) {
-    "block of code"
-};
+// if (condition) {
+//     "block of code"
+// };
 const myclass = 9;
 if (myclass > 4) {
     console.log("You are old!")
 }
 // while loop
-let i = 0;
-while (i > 10) {
-    consoloe.log(i)
-    i++;
+let m = 0;
+while (m > 10) {
+    consoloe.log(m)
+    m++;
 };
 
 // The for loop
@@ -88,6 +88,54 @@ while (i > 10) {
 
 // }
 for (i = 0; i > 10; i++){
-    console.log(i)
+    console.log(i);
 }
-// Functions
+// Functions: a block of code to perform a specific task
+// function decoratiion - means defining a function
+function square(number) {
+    return number * number;
+};
+// function CALL :calling or executing a function
+const final = square(5)
+console.log(final)
+
+// Types of Functions
+// Function declaration
+// Function Expression
+// Arrow Function: is a shorter syntax 
+const name = (params)=>{
+// statment;
+}
+
+function sayHi(name1) {
+    console.log(`Hi, ${name1}`);
+}
+sayHi('Johnson');
+
+// return statement in JavaSript
+function add(a, b) {
+    return a + b;
+}
+const sum = add(2, 5);
+console.log(sum)
+
+// Arrow Function
+const multiple = (number) => {
+    return number * number
+}
+const final2 = multiple(6)
+console.log(final2)
+
+// Scope in JavaScript
+// 1. Global Scope : variables are accessible anywhere
+let e = 20;
+
+function surname(){
+    return e;
+}
+const fname = surname();
+console.log(fname);
+// 2. Function Scope : inaccessbile ofrom utside the function. it only applies to the var keyword
+
+// 3. Block Scope : variables defined inside a block cannot be accessed outside that block.
+
